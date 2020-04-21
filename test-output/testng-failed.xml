@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Gmail Suite]" parallel="tests">
+  <test thread-count="2" name="Myntra(failed)" parallel="tests">
+    <classes>
+      <class name="suite2.NewTest2">
+        <methods>
+          <include name="newTest2"/>
+        </methods>
+      </class> <!-- suite2.NewTest2 -->
+    </classes>
+  </test> <!-- Myntra(failed) -->
+  <test thread-count="2" name="flipkart(failed)" parallel="tests">
+    <classes>
+      <class name="suite1.NewTest1">
+        <methods>
+          <include name="newTest1"/>
+        </methods>
+      </class> <!-- suite1.NewTest1 -->
+    </classes>
+  </test> <!-- flipkart(failed) -->
+</suite> <!-- Failed suite [Gmail Suite] -->

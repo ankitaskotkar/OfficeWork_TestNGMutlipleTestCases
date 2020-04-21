@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Suite" duration-ms="39389" started-at="2020-03-31T05:41:20Z" finished-at="2020-03-31T05:41:59Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="28890" started-at="2020-03-31T05:41:20Z" finished-at="2020-03-31T05:41:49Z">
+      <class name="suite1.NewTest1">
+        <test-method status="PASS" signature="newTest1()[pri:0, instance:suite1.NewTest1@2a5ca609]" name="newTest1" duration-ms="28870" started-at="2020-03-31T05:41:20Z" finished-at="2020-03-31T05:41:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newTest1 -->
+      </class> <!-- suite1.NewTest1 -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="39389" started-at="2020-03-31T05:41:20Z" finished-at="2020-03-31T05:41:59Z">
+      <class name="suite2.NewTest2">
+        <test-method status="PASS" signature="newTest2()[pri:0, instance:suite2.NewTest2@68c4039c]" name="newTest2" duration-ms="23320" started-at="2020-03-31T05:41:20Z" finished-at="2020-03-31T05:41:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newTest2 -->
+        <test-method status="PASS" signature="newTest2()[pri:0, instance:suite2.NewTest2@68c4039c]" name="newTest2" duration-ms="16047" started-at="2020-03-31T05:41:43Z" finished-at="2020-03-31T05:41:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newTest2 -->
+      </class> <!-- suite2.NewTest2 -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Test Suite -->
+</testng-results>
